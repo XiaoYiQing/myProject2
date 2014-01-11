@@ -29,4 +29,10 @@ public class GitTest {
 		this.i = i;	
 	}
 	
+	public GitTest(int i, int j, double z){
+		this.i = i;
+		this.j = j;
+		this.z = z;
+	}
+	
 }
