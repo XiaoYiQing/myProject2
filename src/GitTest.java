@@ -11,5 +11,10 @@ public class GitTest {
 		//LOL
 		
 		System.out.println("Awesome");
+		
+	}
+	
+	public GitTest(int i){
+		this.i = i;
 	}
 }
