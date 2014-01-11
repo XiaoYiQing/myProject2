@@ -1,7 +1,7 @@
 
 public class GitTest {
 	
-	private int i;
+	private int i,j;
 	private double z;
 	
 	public static void main(String[]args){
@@ -24,4 +24,16 @@ public class GitTest {
 		this.i = i;
 		this.z = z;
 	}
+	
+	public GitTest(int i, int j){
+		this.j = j;
+		this.i = i;	
+	}
+	
+	public GitTest(int i, int j, double z){
+		this.i = i;
+		this.j = j;
+		this.z = z;
+	}
+	
 }
