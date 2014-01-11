@@ -1,7 +1,7 @@
 
 public class GitTest {
 	
-	private int i;
+	private int i,j;
 	
 	public static void main(String[]args){
 		System.out.println("Hi There!");
@@ -15,6 +15,11 @@ public class GitTest {
 	}
 	
 	public GitTest(int i){
+		this.i = i;
+	}
+	
+	public GitTest(int i, int j){
+		this.j = j;
 		this.i = i;
 	}
 }
