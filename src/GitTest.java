@@ -13,6 +13,7 @@ public class GitTest {
 		
 		System.out.println("Awesome");
 		
+		System.out.println("br2 last change");
 	}
 	
 	public GitTest(int i){
