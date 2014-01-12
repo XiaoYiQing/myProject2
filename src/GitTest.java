@@ -13,6 +13,9 @@ public class GitTest {
 		
 		System.out.println("Awesome");
 		
+		//This is br3 only, and we are testing whether pulling from master 
+		//branch will affect this comment.
+		
 		System.out.println("br2 last change");
 	}
 	
